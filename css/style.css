@@ -17,11 +17,22 @@
 
 .head h1::after{
     content: "";
-    background: #ffb700;
-    width: 40px;
-    height: 2px;
+    background: #352080;
+    width: 15px;
+    height: 3px;
     position: absolute;
-    bottom: -10px;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head h1::before{
+    content: "";
+    background: #ffae00;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    bottom: -9px;
     left: 50%;
     transform: translateX(-50%);
 }
